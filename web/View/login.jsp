@@ -1,3 +1,10 @@
+<%-- 
+    Document   : login
+    Created on : 26 May 2022, 07:48:28
+    Author     : benny
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 
 <!DOCTYPE html>
@@ -24,11 +31,12 @@
                 </label>
                 <img src="photo.png" alt="foto">
                 <ul>
-                    <li><a href="">como se cadastrar</a></li>
-                    <li><a href="">contactos</a></li>
-                    <li><a href="">saber mais</a></li>
-                    <li><a href="">Ajuda</a></li>
-                    <li><a href="">Feedback</a></li>
+                     <li><a href="">Inicio</a></li>
+          <li><a href="">Comunidade</a></li>
+          <li><a href="">Contactos</a></li>
+          <li><a href="">Licencas</a></li>
+          <li><a href="">A cerca do MozWorkers</a></li>
+          <li><a href="">Contacto do programador</a></li>
                     
                 </ul>
             </nav>
@@ -72,6 +80,66 @@
             </div>
         </div> 
     </section>
+    
+     <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>sobre nos</h2>
+                <div class="content">
+                    <p>eus sou programador web mas nao sei nada de front end mas sou mau em back end</p>
+                
+                <div class="social">
+                    <a href="#"><span class="fab fa-facebook-f"></span></a>
+                    <a href="#"><span class="fab fa-twitter"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+            </div>
+            <div class="center box">
+                <h2>Endereco</h2>
+                <div class="content">
+                    <div class="place">
+                        <span class="fas fa-map-marker"></span>
+                        <span class="text">Av de mocambique, maputo</span>
+                    </div>
+
+                    <div class="phone">
+                        <span class="fas fa-phone-alt"></span>
+                        <span class="text">840462348</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">bennedito01@gmail.com</span>
+                    </div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>contacto</h2>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email *</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Mensagem *</div>
+                            <textarea cols="25" rows="2" required></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="center">
+                <span class="credit">criado por <a href="#">Front</a></span>
+                <span class=""> 2022 tosos os direitos reservadoso</span>
+            </div>
+        </div>
+    </footer>
 
     <script>
         function toggleForm(){

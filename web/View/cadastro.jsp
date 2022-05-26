@@ -1,3 +1,10 @@
+<%-- 
+    Document   : cadastro
+    Created on : 26 May 2022, 07:47:45
+    Author     : benny
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>

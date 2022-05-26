@@ -4,10 +4,7 @@
  */
 package Mapeamento;
 
-/**
- *
- * @author benny
- */
+
 public class publicacao {
     
 }

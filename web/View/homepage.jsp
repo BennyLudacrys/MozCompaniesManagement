@@ -1,3 +1,10 @@
+<%-- 
+    Document   : homepage
+    Created on : 26 May 2022, 07:48:05
+    Author     : benny
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,7 +19,7 @@
     <div class="insta">
         <header>
             <div class="logo">
-                <img src="" alt="imagem do logotipo">
+                <img src="/img/mcm.png" alt="imagem do logotipo">
             </div>
             <div class="search-box">
                 <i class="fas fa-search"></i>
@@ -24,7 +31,7 @@
                     <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
                     <li><a href="#"><i class="far fa-plus-square"></i></a></li>
                     <li><a href="#"><i class="far fa-compass"></i></a></li>
-                    <li><a href="#"><i class="far fa-heart"></i></a></li>
+                    <li><a href="#"><i class="fa fa-chart-line"></i></a></li>
                     <li><a href="#"><img src="img/photo.jpg" alt="fffff"></a></li>
                 </ul>
             </nav>
@@ -33,27 +40,36 @@
             <div class="left-side">
                 <div class="story">
                     <div class="stories">
-                        <a href="#"><img src="img/photo.jpg" width="60" height="60" alt="foto"></a>
-                        <p>frontendforever</p>
+                        <a href="#"><img src="img/audi.jpg" width="60" height="60" alt="foto"></a>
+                        <p>CoWork</p>
                     </div>
                     <div class="stories">
                         <a href="#"><img src="img/photo.jpg" width="60" height="60" alt="foto"></a>
-                        <p>frontendforever</p>
+                        <p>Aluminio e vidro</p>
                     </div>
                     <div class="stories">
                         <a href="#"><img src="img/photo.jpg" width="60" height="60" alt="foto"></a>
-                        <p>frontendforever</p>
+                        <p>Mozal</p>
                     </div>
                     <div class="stories">
                         <a href="#"><img src="img/photo.jpg" width="60" height="60" alt="foto"></a>
-                        <p>frontendforever</p>
+                        <p>Baia Mall</p>
+                    </div>
+                    <div class="stories">
+                        <a href="#"><img src="img/photo.jpg" width="60" height="60" alt="foto"></a>
+                        <p>vodacom</p>
+                    </div>
+                    
+                    <div class="stories">
+                        <a href="#"><img src="img/triton.jpg" width="60" height="60" alt="foto"></a>
+                        <p>Midas</p>
                     </div>
                 </div>
                 <div class="posts">
                     <div class="post-title">
                         <div class="post-left">
                             <div class="image">
-                                <img src="img/photo.jpg" alt="foto" width="32" height="32">
+                                <img src="img/triton.jpg" alt="foto" width="32" height="32">
                             </div>
                             <div class="details">
                                 <p class="name">frontenddeveloper</p>
@@ -65,14 +81,14 @@
                         </div>
                     </div>
                     <div class="post-content">
-                        <img src="img/photo.jpg" alt="fofo" height="600" width="600">
+                        <img src="img/audi.jpg" alt="fofo" height="600" width="600">
                     </div>
 
                     <div class="post-footer">
                         <div class="like-share-comment">
-                            <i class="far fa-heart"></i>
-                            <i class="far fa fa-comment" aria-hidden="true"></i>
-                            <i class="far fa-paper-plane"></i>
+                            <i class="far fa-thumbs-up"></i>
+                            <i class="fa fa-comment-dollar" aria-hidden="true"></i>
+                            <i class="fa fa-share"></i>
                         </div>
                         <div class="save">
                             <i class="far fa-bookmark"></i>
@@ -95,11 +111,11 @@
                     <div class="post-title">
                         <div class="post-left">
                             <div class="image">
-                                <img src="img/photo.jpg" alt="foto" width="32" height="32">
+                                <img src="img/HRV-02.jpg" alt="foto" width="32" height="32">
                             </div>
                             <div class="details">
-                                <p class="name">frontenddeveloper</p>
-                                <p class="location">benedito</p>
+                                <p class="name">HONDA</p>
+                                <p class="location">Maputo Mozambique</p>
                             </div>
                         </div>
                         <div class="post-right">
@@ -107,14 +123,15 @@
                         </div>
                     </div>
                     <div class="post-content">
-                        <img src="img/photo.jpg" alt="fofo" height="600" width="600">
+                        <img src="img/HRV-02.jpg" alt="fofo" height="600" width="600">
+                        
                     </div>
 
                     <div class="post-footer">
                         <div class="like-share-comment">
-                            <i class="far fa-heart"></i>
-                            <i class="far fa fa-comment" aria-hidden="true"></i>
-                            <i class="far fa-paper-plane"></i>
+                            <i class="far fa-thumbs-up"></i>
+                            <i class="fa fa-comment-dollar" aria-hidden="true"></i>
+                            <i class="fa fa-share"></i>
                         </div>
                         <div class="save">
                             <i class="far fa-bookmark"></i>
@@ -122,9 +139,9 @@
                     </div>
                     <div class="post-footer-content">
                         <p class="likes">100 likes</p>
-                        <p class="name">frontend developer <span>pleasse subscribe</span></p>
-                        <p class="comments">view all 10 comments</p>
-                        <p class="posting-time">23 Hours Ago</p>
+                        <p class="name">contacte nos pelo numero <span>840462348</span></p>
+                        <p class="comments">ver todos os 10 comentarios</p>
+                        <p class="posting-time">23 horas atras</p>
                     </div>
                     <div class="add-comment">
                         <div class="left-side">
@@ -137,11 +154,11 @@
                     <div class="post-title">
                         <div class="post-left">
                             <div class="image">
-                                <img src="img/photo.jpg" alt="foto" width="32" height="32">
+                                <img src="img/triton.jpg" alt="foto" width="32" height="32">
                             </div>
                             <div class="details">
-                                <p class="name">frontenddeveloper</p>
-                                <p class="location">benedito</p>
+                                <p class="name">CoWork</p>
+                                <p class="location">Av. 10 de novembro <b>N*</b>390</p>
                             </div>
                         </div>
                         <div class="post-right">
@@ -149,14 +166,14 @@
                         </div>
                     </div>
                     <div class="post-content">
-                        <img src="img/photo.jpg" alt="fofo" height="600" width="600">
+                        <img src="img/triton.jpg" alt="fofo" height="600" width="600">
                     </div>
 
                     <div class="post-footer">
                         <div class="like-share-comment">
-                            <i class="far fa-heart"></i>
-                            <i class="far fa fa-comment" aria-hidden="true"></i>
-                            <i class="far fa-paper-plane"></i>
+                            <i class="far fa-thumbs-up"></i>
+                            <i class="fa fa-comment-dollar" aria-hidden="true"></i>
+                            <i class="fa fa-share"></i>
                         </div>
                         <div class="save">
                             <i class="far fa-bookmark"></i>
@@ -187,12 +204,12 @@
                         
                     
                     <div class="details">
-                        <p class="name">Benedito Muianga</p>
-                        <p class="surname">Muianga</p>
+                        <p class="name"><b>HONDA</b></p>
+                        <p class="surname">Mozambique</p>
                     </div>
                     </div>
                     <div class="profile-right">
-                        <p>Swich</p>
+                        <p>Terminar a sessao</p>
                     </div>
                 </div>
 
@@ -204,11 +221,25 @@
                 <div class="suggestion-title">
                     <div class="suggestion-left">
                         <div class="image">
-                            <img src="img/lock.jpg" alt="foto" height="32" width="32">
+                            <img src="img/HRV-02.jpg" alt="foto" height="32" width="32">
                         </div>
                         <div class="details">
-                            <p class="name">frontend developer</p>
-                            <p class="location">Maputo</p>
+                            <p class="name">Midas</p>
+                            <p class="location">Maputo, bairro central</p>
+                        </div>
+                    </div>
+                    <div class="suggestion-right">
+                        <p>Seguir</p>
+                    </div>
+                </div>
+                <div class="suggestion-title">
+                    <div class="suggestion-left">
+                        <div class="image">
+                            <img src="img/triton.jpg" alt="foto" height="32" width="32">
+                        </div>
+                        <div class="details">
+                            <p class="name">Mitsubishi Motors</p>
+                            <p class="location">Mozambique, Maputo</p>
                         </div>
                     </div>
                     <div class="suggestion-right">
@@ -221,22 +252,8 @@
                             <img src="img/lock.jpg" alt="foto" height="32" width="32">
                         </div>
                         <div class="details">
-                            <p class="name">frontend developer</p>
-                            <p class="location">Maputo</p>
-                        </div>
-                    </div>
-                    <div class="suggestion-right">
-                        <p>Seguir</p>
-                    </div>
-                </div>
-                <div class="suggestion-title">
-                    <div class="suggestion-left">
-                        <div class="image">
-                            <img src="img/lock.jpg" alt="foto" height="32" width="32">
-                        </div>
-                        <div class="details">
-                            <p class="name">frontend developer</p>
-                            <p class="location">Maputo</p>
+                            <p class="name">Casa de Frangos</p>
+                            <p class="location">Mozambique, Maputo</p>
                         </div>
                     </div>
                     <div class="suggestion-right">

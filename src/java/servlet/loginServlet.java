@@ -1,6 +1,6 @@
 package servlet;
 
-import Controller.usuarioDAO;
+import Controller.DAO.usuarioDAO;
 import Mapeamento.usuario;
 import java.io.IOException;
 import javax.servlet.RequestDispatcher;
@@ -13,7 +13,7 @@ import javax.servlet.http.HttpSession;
 import javax.swing.JOptionPane;
 
 
-@WebServlet(name="loginServlet", urlPatterns={"/MozWorkers/login"})
+@WebServlet(name="loginServlet", urlPatterns={"/View/login"})
 public class loginServlet extends HttpServlet {
    
     @Override
@@ -30,7 +30,7 @@ public class loginServlet extends HttpServlet {
        String email =request.getParameter("email");
        String password = request.getParameter("password");
        
-//        usuario u = usuarioDAO.listar();
+ //       listarusuario u = usuarioDAO.listarusuario();
 //            
 //            boolean loginSucesso = false;
 //            
@@ -44,7 +44,7 @@ public class loginServlet extends HttpServlet {
 //              HttpSession session = request.getSession();
 //              session.setAttribute("usuarioLogado", u);
 //            
-        RequestDispatcher rd = request.getRequestDispatcher("/MozWorkers/homepage.html");
+        RequestDispatcher rd = request.getRequestDispatcher("/View/homepage.jsp");
         rd.forward(request, response);  
 //         } else{
 //              //informar o usuario que deu erro
